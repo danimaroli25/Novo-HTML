@@ -11,7 +11,7 @@ body {
 }
 
 .o-header, .o-aside, .o-main, .o-footer {
-    background: #BC20E2;
+    background: #7b787c;
     color: #FDFDFD;
 }
 
@@ -27,5 +27,14 @@ body {
 }
 .o-footer {
     grid-area: footer;
-    padding: 1rem;
+    padding: 15px;
+}
+.rodape {
+    text-align: center;
+    background-color: rgb(208, 212, 212);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    left: 0;
 }
